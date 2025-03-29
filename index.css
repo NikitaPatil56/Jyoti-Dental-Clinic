@@ -873,7 +873,7 @@ select, textarea, input {
       margin-bottom: 30px;
     }
   }
-  @media (max-width: 480px) {
+  @media (max-width: 400px) {
     .carousel-item{
       height: 70vh;
     }
