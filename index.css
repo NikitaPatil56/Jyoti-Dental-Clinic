@@ -47,6 +47,9 @@
     background: no-repeat center center scroll;
     background-size: cover;
   }
+
+
+
   
   .carousel-caption {
     bottom: 50%;
@@ -869,4 +872,13 @@ select, textarea, input {
     .footer-widget {
       margin-bottom: 30px;
     }
+  }
+  @media (max-width: 480px) {
+    .carousel-item{
+      height: 70vh;
+    }
+    #ert{
+      display: none;
+    }
+
   }
