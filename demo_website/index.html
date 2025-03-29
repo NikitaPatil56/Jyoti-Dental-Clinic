@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jyoti Dental Clinic</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jyoti<span>Clinic</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#specs">Services</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-lg-3 mt-2 mt-lg-0" href="#appointment">Book Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-slider">
+    <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="3 slider.jpg" class="d-block w-100" alt="Dental Office" height="100%" width="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1  style="font-family: century;">Your Best Smile Starts Here</h1>
+            <p>Jyoti Dental Clinic provides comprehensive dental care with the latest technology and a team of expert professionals.</p>
+            <!-- <a href="#appointment" class="btn btn-primary btn-lg me-3">Book Appointment</a> -->
+            <a href="#specs" class="btn btn-outline-light btn-lg">Our Services</a>
+          </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="2 slider.jpg" class="d-block w-100" alt="Dental Treatment" height="100%" width="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1  style="font-family: century;">Advanced Dental Solutions</h1>
+            <p>Experience painless treatments with state-of-the-art equipment and caring professionals.</p>
+            <!-- <a href="#technologies" class="btn btn-primary btn-lg me-3">Our Technology</a> -->
+            <a href="#reviews" class="btn btn-outline-light btn-lg">Patient Reviews</a>
+          </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img src="1 slider.jpg" class="d-block w-100" alt="Happy Patient" height="100% " width="100%">
+          <div class="carousel-caption d-none d-md-block">
+            <h1  style="font-family: century;">Trusted Family Dental Care</h1>
+            <p>Join thousands of satisfied patients who trust us with their family's dental health.</p>
+            <!-- <a href="#team" class="btn btn-primary btn-lg me-3">Meet Our Team</a> -->
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+  <section class="offer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 mx-auto text-center">
+          <h3 class="offer-text">🎉 Special Offer: Free Dental Check-up on Your First Visit! Call us today to schedule. 🎉</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specifications Section -->
+  <section id="specs" class="specs-section">
+    <div class="container">
+      <div class="section-title">
+        <h2  style="font-family: century;">Why Choose Us</h2>
+        <p>We are committed to providing high-quality dental care in a comfortable environment</p>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4"data-aos="zoom-in" data-aos-delay="100">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-tooth"></i>
+            </div>
+            <h3>Advanced Technology</h3>
+            <p>We use the latest dental technology to ensure precise diagnosis and comfortable treatment.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Expert Dentists</h3>
+            <p>Our team of experienced dentists are committed to providing the highest standard of care.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4"data-aos="zoom-in" data-aos-delay="300">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Quality Guaranteed</h3>
+            <p>We stand behind our work with comprehensive warranties and satisfaction guarantees.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4"data-aos="zoom-in" data-aos-delay="400">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Flexible Scheduling</h3>
+            <p>We offer convenient appointment times including evenings and weekends to fit your busy life.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4"data-aos="zoom-in" data-aos-delay="500">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Gentle Care</h3>
+            <p>We prioritize your comfort and provide gentle, pain-free treatments for all ages.</p>
+          </div>
+        </div>
+        
+        <div class="col-md-4"data-aos="zoom-in" data-aos-delay="600">
+          <div class="spec-item">
+            <div class="spec-icon">
+              <i class="fas fa-comments-dollar"></i>
+            </div>
+            <h3>Affordable Options</h3>
+            <p>We offer flexible payment plans and work with most insurance providers to make quality care affordable.</p>
+          </div>
+        </div>
+      </div> 
+
+    <!-- </div>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    </script>-->
+  </section> 
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-title">
+        <h2 style="font-family: century;">About Jyoti Dental Clinic</h2>
+        <p>Learn more about our clinic and our commitment to excellence</p>
+      </div>
+      
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-image">
+            <img src="about image.jpg" alt="About BrightSmile Dental">
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="about-content">
+            <h3 style="font-style: italic;text-align: center;">Welcome to Jyoti Dental Clinic</h3>
+                <p>Welcome to Jyoti Dental Clinic, where we prioritize your oral health and well-being. Our experienced team is dedicated to providing top-quality dental care tailored to your needs.Jyoti Dental Clinic is a Dentistry Clinic in Satpur Colony, Nashik. The clinic is visited by doctors like Dr. Rohit D Mamude. The timings of Jyoti Dental Clinic are: Mon-Sun: 09:00-13:00, 17:00-21:00. Click on map to find directions to reach Jyoti Dental Clinic.</p>
+<a href="#contact" class="btn btn-primary mt-3">Schedule a Consultation</a>
+</div>
+</div>
+</div>
+
+<!-- Mission & Vision -->
+<div class="row mt-5">
+<div class="col-md-6">
+<div class="mission-vision">
+<h3 style="text-align: center;">Our Mission</h3>
+<p>To provide exceptional dental care that enhances the quality of life for our patients through comprehensive treatment, education, and genuine compassion. We are committed to using the latest technology and techniques to ensure the best possible outcomes.</p>
+</div>
+</div>
+<div class="col-md-6">
+<div class="mission-vision">
+<h3 style="text-align: center;">Our Vision</h3>
+<p>To be the leading dental practice known for clinical excellence, outstanding patient experience, and meaningful community impact. We strive to create an environment where patients feel valued, heard, and confident in their dental care decisions.</p>
+</div>
+</div>
+</div>
+
+<!-- History -->
+<div class="row mt-5"> 
+<div style="margin-left: 18%;" class="col-8">
+<div class="mission-vision">
+<h3 style="text-align: center;">Our History</h3>
+<p>Jyoti Clinic was established 6 years ago with a commitment to providing high-quality healthcare with a personal touch. From humble beginnings, our clinic has grown into a trusted healthcare center, serving a diverse community with dedication and compassion.</p><p> Over the years, we have expanded our services, integrated advanced medical technologies, and built a team of skilled professionals who prioritize patient well-being. Our unwavering focus on excellence and patient-centered care has earned us a reputation as a reliable and respected healthcare provider in the region.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="team-section">
+<div class="container">
+<div class="section-title">
+<h2  style="font-family: century;">Meet Our Team</h2>
+<p>Our experienced professionals are dedicated to your dental health</p>
+</div>
+
+<div class="row">
+<!-- Director -->
+<div class="col-12 ">
+<h3 class="text-center mb-4">Our Director</h3>
+<div class="row justify-content-center">
+<div class="col-lg-6 col-md-6">
+<div class="team-card">
+<div class="team-img">
+<img src="doctor.jpg" alt="Dr.Rohit D Mamude">
+</div>
+<div class="team-info">
+<h4>Dr. Rohit D Mamude</h4>
+<span>Founder & Clinical Director</span>
+<p class="mt-2">Dr. Rohit D Mamude is a Dentist in Satpur Colony, Nashik and has an experience of 6 years in this field. Dr. Rohit D Mamude practices at Jyoti Dental Clinic in Satpur Colony, Nashik. He completed BDS from Maharashtra Universtity of Health Sciences, Nashik in 2019.</p>
+<ul class="team-social">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="https://www.linkedin.com/in/nikita-patil-1a6110359/"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Team Members -->
+<!-- <div class="col-lg-4 col-md-6">
+<div class="team-card">
+<div class="team-img">
+<img src="/api/placeholder/400/400" alt="Dr. Michael Chen">
+</div>
+<div class="team-info">
+<h4>Dr. Michael Chen</h4>
+<span>Orthodontist</span>
+<ul class="team-social">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="team-card">
+<div class="team-img">
+<img src="/api/placeholder/400/400" alt="Dr. Sarah Johnson">
+</div>
+<div class="team-info">
+<h4>Dr. Sarah Johnson</h4>
+<span>Pediatric Dentist</span>
+<ul class="team-social">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="team-card">
+<div class="team-img">
+<img src="/api/placeholder/400/400" alt="Dr. James Wilson">
+</div>
+<div class="team-info">
+<h4>Dr. James Wilson</h4>
+<span>Periodontist</span>
+<ul class="team-social">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="reviews-section">
+<div class="container">
+<div class="section-title">
+<h2  style="font-family: century;">Patient Reviews</h2>
+<p>See what our patients have to say about their experience</p>
+</div>
+
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="review-card">
+<p class="review-text">I've been coming to Jyoti Dental Clinic for years and have always received excellent care. The staff is friendly and professional, and Dr. Rohit Mamude is amazing!</p>
+<div class="reviewer">
+<div class="reviewer-img">
+</div>
+<div class="reviewer-info">
+<h5>shekhar B.</h5>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="review-card">
+<p class="review-text">My kids love coming to Jyoti Dental! Dr. Rohit Mamude  makes them feel comfortable, and they actually look forward to their dental visits now.</p>
+<div class="reviewer">
+<div class="reviewer-img">
+</div>
+<div class="reviewer-info">
+<h5>Laxman P.</h5>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="review-card">
+<p class="review-text">I had dental anxiety for years, but the team at Jyoti Dental has been so patient and understanding. They've completely changed my outlook on dental care.</p>
+<div class="reviewer">
+<div class="reviewer-img">
+</div>
+<div class="reviewer-info">
+<h5>Sankalp N.</h5>
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Blog Section -->
+<section id="blog" class="py-5">
+    <div class="container">
+        <h2 style="font-family: century;" class="text-center mb-5">Latest Dental Tips & News</h2>
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="flossing.jpg" class="card-img-top" alt="Flossing Techniques" height="45%" width="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">5 Effective Flossing Techniques</h5>
+                        <p class="card-text">Discover the proper way to floss<br> your teeth and protect your gums from disease.</p>
+                        <p class="text-muted"><small>March 15, 2025</small></p>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="child dental.jpg" class="card-img-top" alt="Children's Dental Care" height="45%" width="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Children's Dental Care: Starting Early</h5>
+                        <p class="card-text">Learn when to start dental care for your children and how to make it a positive experience.</p>
+                        <p class="text-muted"><small>March 8, 2025</small></p>
+                
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="teath white.jpg" class="card-img-top" alt="Teeth Whitening" height="45%" width="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">The Truth About Teeth Whitening</h5>
+                        <p class="card-text">What really works? Separating myth from<br> fact in teeth whitening procedures and products.</p>
+                        <p class="text-muted"><small>February 27, 2025</small></p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5 ">
+    <div class="container ">
+        <div class="row">
+          <div class="col-lg-6 col-12 mt-5">
+            <div class="contact-card">
+                <h2 style="font-family: century;" class="text-primary mb-3">Contact Us</h2>
+                <p class="lead text-muted">We're here to answer your questions and schedule your appointment.</p>
+                <hr>
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fa-solid fa-location-dot contact-icon me-3"></i>
+                    <div>
+                        <h5>Our Location</h5>
+                        <p>Pipeline Road, Kamgar Nagar Road,<br> Satpur Industrial Estate, Nashik - 422007</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fa-solid fa-phone-volume contact-icon me-3"></i>
+                    <div>
+                        <h5>Phone Numbers</h5>
+                        <p>Main: +91 88063 20032<br>Emergency: 02048552186</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center mb-4">
+                    <i class="fa-solid fa-envelope contact-icon me-3"></i>
+                    <div>
+                        <h5>Email Us</h5>
+                        <p>appointments@smilebrightdental.com<br>info@smilebrightdental.com</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-clock contact-icon me-3"></i>
+                    <div>
+                        <h5>Office Hours</h5>
+                        <p>Mon-Sun: 09:00AM - 01:00PM, 05:00PM - 09:00PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            
+            <div class="container col-lg-6  col-12 py-5 mt-4">
+              <div class="row">
+                  <div>
+                      <div class="card shadow-lg">
+                          <div class="card-header text-white text-center py-4">
+                              <h3 class="mb-0">
+                                  <i class="fas fa-calendar-alt me-2"></i>Request an Appointment
+                              </h3>
+                          </div>
+                          <div class="card-body p-5">
+                              <form>
+                                  <div class="row">
+                                      <div class="col-md-6 mb-3">
+                                          <div class="form-group-icon">
+                                              <i class="fas fa-user"></i>
+                                              <input type="text" class="form-control" placeholder="Full Name" required>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6 mb-3">
+                                          <div class="form-group-icon">
+                                              <i class="fas fa-envelope"></i>
+                                              <input type="email" class="form-control" placeholder="Email Address" required>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-6 mb-3">
+                                          <div class="form-group-icon">
+                                              <i class="fas fa-phone"></i>
+                                              <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6 mb-3">
+                                          <div class="form-group-icon">
+                                              <i class="fas fa-calendar-day"></i>
+                                              <input type="date" class="form-control" required>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-6 mb-3">
+                                          <select class="form-select" required>
+                                              <option value="" selected disabled>Preferred Time</option>
+                                              <option>Morning (09:00 AM - 01:00 PM)</option>
+                                              <option>Evening (05:00 PM - 09:00 PM)</option>
+                                          </select>
+                                      </div>
+                                      <div class="col-md-6 mb-3">
+                                          <select class="form-select" required>
+                                              <option value="" selected disabled>Service Needed</option>
+                                              <option>Regular Check-up</option>
+                                              <option>Cleaning</option>
+                                              <option>Tooth Pain/Emergency</option>
+                                              <option>Whitening</option>
+                                              <option>Implants</option>
+                                              <option>Orthodontics</option>
+                                              <option>Other (please specify)</option>
+                                          </select>
+                                      </div>
+                                  </div>
+                                  <div class="mb-3">
+                                      <textarea class="form-control" rows="3" placeholder="Additional Information"></textarea>
+                                  </div>
+                                  <div class="d-grid">
+                                      <button type="submit" class="btn btn-primary btn-lg">
+                                          <i class="fas fa-paper-plane me-2"></i>Request Appointment
+                                      </button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+            </div>
+      
+</section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119966.33854767478!2d73.6629264!3d20.0106937!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdded5255f1396d%3A0x4bae0a4c3d75ee47!2s%F0%9D%97%9D%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%81%F0%9D%97%B6%20Dental%20Clinic%20-Dental%20Implant%20in%20Nashik%20%7CZirconia%20Crown%20in%20Nashik%20%7CRoot%20Canal%20Treatment%20in%20Nashik!5e0!3m2!1sen!2sin!4v1743074926925!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Column -->
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">Jyoti Dental Clinic</h5>
+                <p>Providing quality dental care for over 6 years. Your smile is our priority.</p>
+                <div class="mt-3">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <!-- Quick Links -->
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Services</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Our Dentists</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Patient Forms</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Insurance & Financing</a></li>
+                </ul>
+            </div>
+            
+            <!-- Services -->
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">Our Services</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">General Dentistry</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Cosmetic Dentistry</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Orthodontics</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Pediatric Dentistry</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Dental Implants</a></li>
+                    <li class="mb-2"><a href="#" class="text-white text-decoration-none">Emergency Care</a></li>
+                </ul>
+            </div>
+            
+            <!-- Newsletter -->
+            <div class="col-md-3 mb-4">
+                <h5 class="mb-3">Newsletter</h5>
+                <p>Subscribe to our newsletter for dental tips and special offers.</p>
+                <form>
+                    <div class=" mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email" required><br>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <hr class="my-4">
+        
+        <!-- Bottom Footer -->
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <p class="mb-0">&copy; 2025 Jyoti Dental Clinic. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                <a href="#" class="text-white text-decoration-none me-3">Terms of Service</a>
+                <a href="#" class="text-white text-decoration-none">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
