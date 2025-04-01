@@ -880,5 +880,6 @@ select, textarea, input {
     #ert{
       display: none;
     }
-
+.p{
+    font-size:10px
   }
